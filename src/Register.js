@@ -106,7 +106,7 @@ class Register extends Component {
             <Button onClick={() => this.submitForm()}>Submit</Button>
             <p>
               Already have an account?{" "}
-              <a onClick={() => this.props.history.push("/login/")} href=''>
+              <a onClick={() => this.props.history.push("/login")} href=''>
                 Login here.
               </a>
             </p>

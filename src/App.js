@@ -27,7 +27,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path='/' component={Register} />
-            <Route exact path='/login' component={Login} />
+            <Route path='/login' component={Login} />
 
             <Route path='/user/post'>
               <Header createPost={this.createPost} />
